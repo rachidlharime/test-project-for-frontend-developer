@@ -1,294 +1,470 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <link rel="stylesheet" href="ressources/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="ressources/fontawesome/css/all.css"/>
-    
-    <script src="ressources/bootstrap/js/bootstrap.js"></script>
-    <script src="ressources/jquery.js"></script>
 
-    <title>Ehya</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="ressources/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="ressources/fontawesome/css/all.css" />
+
+  <script src="ressources/bootstrap/js/bootstrap.js"></script>
+  <script src="ressources/jquery.js"></script>
+
+  <title>Ehya</title>
 </head>
+
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#Home">
-            <img src="assets/logos/app.svg">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-            data-bs-target="#navbarSC" aria-controls="navbarSC" 
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSC">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#Home">
+        <img src="assets/logos/app.svg">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSC"
+        aria-controls="navbarSC" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSC">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Landings
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Landing 1</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
-                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Landings
-                  <i class="fa-solid fa-angle-down"></i>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="#">Landing 1</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Landing 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
-                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pages
-                  <i class="fa-solid fa-angle-down"></i>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="#">Page 1</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Page 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Docs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Help</a>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-outline-primary get-it-now">Get it now</button>
+              <li>
+                <a class="dropdown-item" href="#">Landing 2</a>
               </li>
             </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Page 1</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Page 2</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Docs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-primary get-it-now">Get it now</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="row header mt-3 mb-5">
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="row">
+          <div class="col-12">
+            <h1>A virtual office for remote teams</h1>
+            <p>
+              Re-discover the flow of working together in‑person. See, talk to, and collaborate with your team in
+              one click. Now, every teams can have a virtual office
+            </p>
+          </div>
+          <div class="col-12 pb-5">
+            <button type="button" class="btn btn-primary mb-3">Get started for free</button>
+            <button type="button" class="btn btn-light mb-3">See Pricing</button>
           </div>
         </div>
-    </nav>
+      </div>
+      <div class="col-lg-8 text-center">
+        <img src="assets/illustrations/hero.png">
+      </div>
+    </div>
 
-    <div class="container">
+    <div class="row text-center sponsors">
+      <div class="col-12 mt-5 mb-3">
+        <button type="button" class="btn mb-3">
+          <img src="assets/logos/slack.svg">
+        </button>
+        <button type="button" class="btn mb-3">
+          <img src="assets/logos/netflix.svg">
+        </button>
+        <button type="button" class="btn mb-3">
+          <img src="assets/logos/google.svg">
+        </button>
+        <button type="button" class="btn mb-3">
+          <img src="assets/logos/airbnb.svg">
+        </button>
+        <button type="button" class="btn mb-3">
+          <img src="assets/logos/uber.svg">
+        </button>
+      </div>
+    </div>
 
-      <div class="row header mt-3 mb-5">
-        <div class="col-lg-4 mb-sm-5 mb-lg-0">
+    <div class="row pt-5 pb-5">
+      <img src="assets/others/dots.svg">
+    </div>
+
+    <div class="row mt-5 mb-5 collab">
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="row">
+          <div class="col-12 pt-3">
+            <p>COLLABORATION</p>
+            <h1>Quick Collaboration</h1>
+            <p>
+              See which work apps your team is working in, and join them
+              with a click. Shared cursors = better than screen-sharing.
+            </p>
+          </div>
+          <div class="col-12 mt-3">
+            <button type="button" class="btn btn-primary mb-5">Learn more</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 text-center">
+        <img src="assets/illustrations/1.svg">
+      </div>
+    </div>
+
+    <div class="row mt-5 mb-5 process">
+      <div class="col-md-4 col-10">
+        <div class="card p-lg-3">
+          <div class="card-body">
+            <div class="card-icon mb-4">
+              <img src="assets/icons/computer.svg">
+            </div>
+            <h4 class="card-title mb-3">Bring your ideas to life</h4>
+            <p class="card-text">
+              From pixel-perfect icons and scalable vector graphics, to full user flows and interactive prototype.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-10">
+        <div class="card p-lg-3">
+          <div class="card-body">
+            <div class="card-icon mb-4">
+              <img src="assets/icons/home.svg">
+            </div>
+            <h4 class="card-title mb-3">Build designs from home</h4>
+            <p class="card-text">
+              From pixel-perfect icons and scalable vector graphics, to full user flows and interactive prototype.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-10">
+        <div class="card p-lg-3">
+          <div class="card-body">
+            <div class="card-icon mb-4">
+              <img src="assets/icons/message.svg">
+            </div>
+            <h4 class="card-title mb-3">Discussion intens live</h4>
+            <p class="card-text">
+              From pixel-perfect icons and scalable vector graphics, to full user flows and interactive prototype.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5 mb-5 platforms">
+      <div class="col-lg-6">
+        <div class="card pt-3 mb-3">
+          <div class="row g-0">
+            <div class="col-lg-12 col-md-5 col-12">
+              <img src="assets/illustrations/2.svg">
+            </div>
+            <div class="col-lg-12 col-md-7 col-12">
+              <div class="card-body">
+                <p>UNIVERSAL ROOMS</p>
+                <h5 class="card-title">Spontaneous Conversations</h5>
+                <p class="card-text">
+                  Time zones got you working late? See who is also in work mode and get quick feedback on your work.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card pt-3 mb-3">
+          <div class="row g-0">
+            <div class="col-lg-12 col-md-5 col-12 order-lg-first order-md-last order-first">
+              <img src="assets/illustrations/3.svg">
+            </div>
+            <div class="col-lg-12 col-md-7 col-12">
+              <div class="card-body">
+                <p>ASSISTANCING</p>
+                <h5 class="card-title">Co-working with Multi-Plattform</h5>
+                <p class="card-text">
+                  Hang out in a minimal voice/video call to feel connected — like you're working at the same table.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="row mb-3 testimonials">
+    <div class="col-12">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-5 col-12 img-container">
+            <div class="img-border">
+              <img src="assets/images/1.png">
+            </div>
+          </div>
+          <div class="col-md-7 col-12 carousel slide carousel-fade" data-bs-ride="carousel" id="carouselTestimonials">
+            <div class="carousel-inner">
+              <div class="card-body carousel-item active">
+                <div class="card-title mb-4">
+                  Mathijn Agter #1
+                  <span class="dash">-</span>
+                  <span class="subtitle">Project Manager</span>
+                </div>
+                <p class="card-text">
+                  “EhyaWare is fast. Files are always up to date. It’s easy to share designs across the organization, so
+                  collaboration is easy.”
+                </p>
+              </div>
+              <div class="card-body carousel-item">
+                <div class="card-title mb-4">
+                  Mathijn Agter #2
+                  <span class="dash">-</span>
+                  <span class="subtitle">Team Leader</span>
+                </div>
+                <p class="card-text">
+                  “EhyaWare is fast. Files are always up to date. It’s easy to share designs across the organization, so
+                  collaboration is easy.”
+                </p>
+              </div>
+              <div class="card-body carousel-item">
+                <div class="card-title mb-4">
+                  Mathijn Agter #3
+                  <span class="dash">-</span>
+                  <span class="subtitle">Project Manager #2</span>
+                </div>
+                <p class="card-text">
+                  “EhyaWare is fast. Files are always up to date. It’s easy to share designs across the organization, so
+                  collaboration is easy.”
+                </p>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselTestimonials" data-bs-slide-to="0" class="active"
+                aria-current="true"></button>
+              <button type="button" data-bs-target="#carouselTestimonials" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselTestimonials" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-btn">
+              <button type="button" class="btn btn-light" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button type="button" class="btn btn-light" data-bs-target="#carouselTestimonials" data-bs-slide="next">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="row g-md-0 mt-5 mb-5 pt-5 integrations">
+      <div class="col-md-3 col-6 order-md-first">
+        <div class="row g-0 text-center">
+          <div class="col-3 offset-lg-3 offset-md-0 offset-3">
+            <div class="logo">
+              <img src="assets/logos/shopify.svg">
+            </div>
+          </div>
+          <div class="col-3 offset-lg-3 offset-md-6 offset-3">
+            <div class="logo">
+              <img src="assets/logos/slack-small.svg">
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="logo to-hide-md">
+              <img src="assets/logos/trello.svg">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-9 col-3 offset-3">
+            <div class="logo">
+              <img src="assets/logos/digialoceaon.svg">
+            </div>
+          </div>
+          <div class="col-3 offset-lg-3 offset-md-1 offset-3">
+            <div class="logo">
+              <img src="assets/logos/analytics.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-12 order-first mb-3 text-center">
+        <p class="pt-5">INTEGRATION</p>
+        <h1>Integrations with 40+ Most using software</h1>
+        <button type="button" class="btn btn-link text-decoration-none">
+          Browse all Software
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="row g-0 text-center">
+          <div class="col-3">
+            <div class="logo mt-0">
+              <img src="assets/logos/dropbox.svg">
+            </div>
+          </div>
+          <div class="col-3 offset-lg-2 offset-md-4 offset-2">
+            <div class="logo">
+              <img src="assets/logos/jira.svg">
+            </div>
+          </div>
+          <div class="col-3 offset-lg-1 offset-md-0 offset-1">
+            <div class="logo mt-0 to-hide-md">
+              <img src="assets/logos/drive.svg">
+            </div>
+          </div>
+          <div class="col-3 offset-lg-6 offset-md-9 offset-6">
+            <div class="logo">
+              <img src="assets/logos/github.svg">
+            </div>
+          </div>
+          <div class="col-3 offset-lg-1 offset-md-2 offset-1">
+            <div class="logo">
+              <img src="assets/logos/asana.svg">
+            </div>
+          </div>
+          <div class="col-3 offset-lg-5 offset-md-0 offset-5">
+            <div class="logo to-hide-md">
+              <img src="assets/logos/notion.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row plan-container">
+    <div class="col-12 mb-4 text-center">
+      <p class="pt-5">PRICING PLAN</p>
+      <h1>Find a Plan that works for you</h1>
+      <p>Get the EhyaWare plan that fits your team at a special introductory price. <br>
+        It’s the all-in-one online training system they’ll love.</p>
+    </div>
+    <div class="col-lg-1 col-md-2 col-6 offset-lg-5 offset-md-4">
+      <p class="save-label">Save 10%</p>
+      <p>Annual Plan</p>
+    </div>
+    <div class="col-lg-2 col-md-4 col-6">
+      <div class="form-check form-switch mt-2">
+        <input class="form-check-input" type="checkbox" role="switch" id="planCheck">
+        <label class="form-check-label mt-2 ms-2" for="planCheck">Monthly Plan</label>
+      </div>
+    </div>
+    <div class="row mt-5 plan-pricing">
+      <div class="col-12">
+        <div class="card mb-3">
           <div class="row">
-            <div class="col-12">
-              <h1>A virtual office for remote teams</h1>
-              <p>
-                Re-discover the flow of working together in‑person. See, talk to, and collaborate with your team in 
-                one click. Now, every teams can have a virtual office
-              </p>
+            <div class="col-md-5">
+              <h5>Starter</h5>
+              <p>for up to 2 editors and 3 projects</p>
             </div>
-            <div class="col-12 pb-5">
-              <button type="button" class="btn btn-primary mb-3">Get started for free</button>
-              <button type="button" class="btn btn-light mb-3">See Pricing</button>
+            <div class="col-md-4 mb-3">
+              <div class="plan-price">
+                <h5>Free</h5>
+                <p>
+                  <button type="button" class="btn btn-link">Want more features?</button>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <button type="button" class="btn btn-primary mt-2">Choose Plan</button>
             </div>
           </div>
         </div>
-        <div class="col-lg-8 text-center">
-          <img src="assets/illustrations/hero.png">
-        </div>
       </div>
-
-      <div class="row text-center sponsors">
-        <div class="col-12 mt-5 mb-3">
-          <button type="button" class="btn mb-3">
-            <img src="assets/logos/slack.svg">
-          </button>
-          <button type="button" class="btn mb-3">
-            <img src="assets/logos/netflix.svg">
-          </button>
-          <button type="button" class="btn mb-3">
-            <img src="assets/logos/google.svg">
-          </button>
-          <button type="button" class="btn mb-3">
-            <img src="assets/logos/airbnb.svg">
-          </button>
-          <button type="button" class="btn mb-3">
-            <img src="assets/logos/uber.svg">
-          </button>
-        </div>
-      </div>
-
-      <div class="row pt-5 pb-5">
-        <img src="assets/others/dots.svg">
-      </div>
-
-      <div class="row collab mt-5 mb-5">
-        <div class="col-lg-4 mb-sm-5 mb-lg-0">
+      <div class="col-12">
+        <div class="card mb-3">
           <div class="row">
-            <div class="col-12 pt-3">
-              <p>COLLABORATION</p>
-              <h1>Quick Collaboration</h1>
-              <p>
-                See which work apps your team is working in, and join them 
-                with a click. Shared cursors = better than screen-sharing.
-              </p>
+            <div class="col-md-5">
+              <h5>Professional</h5>
+              <p>for up to 5 editors and 10 projects</p>
             </div>
-            <div class="col-12 mt-3">
-              <button type="button" class="btn btn-primary mb-5">Learn more</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8 text-center">
-          <img src="assets/illustrations/1.svg">
-        </div>
-      </div>
-
-      <div class="row mt-5 mb-5 process">
-        <div class="col-md-4 col-sm-10">
-          <div class="card p-lg-3">
-            <div class="card-body">
-              <div class="card-icon mb-4">
-                <img src="assets/icons/computer.svg">
+            <div class="col-md-4 mb-3">
+              <div class="plan-price">
+                <h5>$60</h5>
+                <p>or $10 month-to-month</p>
               </div>
-              <h4 class="card-title mb-3">Bring your ideas to life</h4>
-              <p class="card-text">
-                From pixel-perfect icons and scalable vector graphics, to full user flows and interactive prototype.
-              </p>
             </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-10">
-          <div class="card p-lg-3">
-            <div class="card-body">
-              <div class="card-icon mb-4">
-                <img src="assets/icons/home.svg">
-              </div>
-              <h4 class="card-title mb-3">Build designs from home</h4>
-              <p class="card-text">
-                From pixel-perfect icons and scalable vector graphics, to full user flows and interactive prototype.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-10">
-          <div class="card p-lg-3">
-            <div class="card-body">
-              <div class="card-icon mb-4">
-                <img src="assets/icons/message.svg">
-              </div>
-              <h4 class="card-title mb-3">Discussion intens live</h4>
-              <p class="card-text">
-                From pixel-perfect icons and scalable vector graphics, to full user flows and interactive prototype.
-              </p>
+            <div class="col-md-3">
+              <button type="button" class="btn btn-primary mt-2">Choose Plan</button>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="row mt-5 mb-5 platforms">
-        <div class="col-lg-6">
-          <div class="card pt-3 mb-3">
-            <div class="row g-0">
-              <div class="col-lg-12 col-md-5 col-sm-12">
-                <img src="assets/illustrations/2.svg">
-              </div>
-              <div class="col-lg-12 col-md-7 col-sm-12">
-                <div class="card-body">
-                  <p>UNIVERSAL ROOMS</p>
-                  <h5 class="card-title">Spontaneous Conversations</h5>
-                  <p class="card-text">
-                    Time zones got you working late? See who is also in work mode and get quick feedback on your work.
-                  </p>
-                </div>
+      <div class="col-12">
+        <div class="card mb-3">
+          <div class="row">
+            <div class="col-md-5">
+              <h5>Organization</h5>
+              <p>for up to 10 editors and 20+ projects</p>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="plan-price">
+                <h5>$100</h5>
+                <p>or $15 month-to-month</p>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="card pt-3 mb-3">
-            <div class="row g-0">
-              <div class="col-lg-12 col-md-5 col-sm-12 order-lg-first order-md-last order-sm-first">
-                <img src="assets/illustrations/3.svg">
-              </div>
-              <div class="col-lg-12 col-md-7 col-sm-12">
-                <div class="card-body">
-                  <p>ASSISTANCING</p>
-                  <h5 class="card-title">Co-working with Multi-Plattform</h5>
-                  <p class="card-text">
-                    Hang out in a minimal voice/video call to feel connected — like you're working at the same table.
-                  </p>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-
-      </div>
-
-      <div class="row mt-5 mb-5 testimonials">
-        <div class="col-12">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-5 col-sm-12 img-container">
-                <!-- <img src="assets/shapes/1.svg" class="shape"> -->
-                <img src="assets/images/1.png">
-              </div>
-              <div class="col-md-7 col-sm-12 carousel slide carousel-fade"  
-                data-bs-ride="carousel" id="carouselTestimonials">
-                <div class="carousel-inner">
-                    <div class="card-body carousel-item active">
-                        <div class="card-title mb-4">
-                            Mathijn Agter #1
-                            <span class="dash">-</span>
-                            <span class="subtitle">Project Manager</span>
-                        </div>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed eaque quae temporibus dolorem molestiae, obcaecati facere error cupiditate quas recusandae, 
-                        </p>
-                    </div>
-                    <div class="card-body carousel-item">
-                        <div class="card-title mb-4">
-                            Mathijn Agter #2
-                            <span class="dash">-</span>
-                            <span class="subtitle">Team Leader</span>
-                        </div>
-                        <p class="card-text">
-                            Odio iusto, labore consequuntur libero quaerat rerum, quod architecto mollitia similique earum saepe doloremque sed, accusamus quia ipsam molestiae! 
-                        </p>
-                    </div>
-                    <div class="card-body carousel-item">
-                        <div class="card-title mb-4">
-                            Mathijn Agter #3
-                            <span class="dash">-</span>
-                            <span class="subtitle">Project Manager #2</span>
-                        </div>
-                        <p class="card-text">
-                            Sed eaque quae temporibus dolorem molestiae, obcaecati facere error cupiditate quas recusandae, mollitia similique earum saepe doloremque sed.
-                        </p>
-                    </div>
-                </div>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselTestimonials" 
-                    data-bs-slide-to="0" class="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#carouselTestimonials" 
-                    data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carouselTestimonials" 
-                    data-bs-slide-to="2"></button>
-                </div>
-                <div class="carousel-btn">
-                    <button type="button" class="btn btn-light" 
-                        data-bs-target="#carouselTestimonials" data-bs-slide="prev">
-                        <i class="fa-solid fa-angle-left"></i>
-                    </button>
-                    <button type="button" class="btn btn-light" 
-                        data-bs-target="#carouselTestimonials" data-bs-slide="next">
-                        <i class="fa-solid fa-angle-right"></i>
-                    </button>
-                </div>
-              </div>
+            <div class="col-md-3">
+              <button type="button" class="btn btn-primary mt-2">Choose Plan</button>
             </div>
           </div>
         </div>
       </div>
+      <div class="col-12">
+        <div class="card mb-3">
+          <div class="row">
+            <div class="col-md-5">
+              <h5>Enterprise</h5>
+              <p>for 1000+ People company</p>
+            </div>
+            <div class="col-md-4 mb-3">
+            </div>
+            <div class="col-md-3">
+              <button type="button" class="btn btn-primary mt-2">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
+
 </html>
