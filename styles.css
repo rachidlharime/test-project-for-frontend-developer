@@ -73,9 +73,8 @@ label {
 }
 
 .sponsors .btn {
-    background: none;
-    width: 15%;
-    margin: 0 25px;
+    width: fit-content;
+    padding: 0;
 }
 
 .sponsors .btn img {
@@ -107,11 +106,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.platforms img {
-    max-height: 500px;
-    width: 100%;
 }
 
 .testimonials {
@@ -273,6 +267,94 @@ h1 {
     padding: 0;
 }
 
+.download-card {
+    /* min-height: ; */
+    background-color: #eaf7f2;
+    border: none;
+    border-radius: 0;
+}
+
+.download-card .card-body p {
+    min-height: 50px;
+}
+
+.download-card.active {
+    background-color: #36b37e;
+}
+
+.download-card.active *:not(.btn) {
+    color: #FFFFFF;
+}
+
+.download-card.active p {
+    opacity: .8;
+}
+
+.download svg * {
+    fill: #5a7184;
+}
+
+.download-card.active svg * {
+    fill: #FFFFFF;
+}
+
+.download .download-btn {
+    background: transparent;
+    color: #36b37e;
+    border: 1px solid;
+    border-radius: .8rem;
+    padding: .8rem 3rem;
+}
+
+.download .download-btn:hover {
+    background-color: #36b37e;
+    color: #FFFFFF;
+}
+
+.download-card.active .download-btn {
+    color: #183B56;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.download-card.active .download-btn:hover {
+    color: #183B56;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #212529 !important;
+}
+
+.subscribe .input-group .btn {
+    background-color: #183b56;
+    color: #FFFFFF;
+}
+
+.footer h5 {
+    padding-bottom: 1rem;
+}
+
+.footer p {
+    width: 90%;
+}
+
+.footer .social-media img {
+    width: 20px;
+    height: 20px;
+}
+
+.heart-icon {
+    width: fit-content;
+    background-color: #1576d8;
+    padding: 10px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
 @media only screen and (max-width: 991px) {
     .navbar {
         min-height: 65px;
@@ -290,6 +372,7 @@ h1 {
 
     .platforms img {
         max-height: 300px;
+        width: 100%;
     }
 
     .testimonials {
@@ -322,10 +405,6 @@ h1 {
     .header img {
         width: 300px;
         height: 178px;
-    }
-
-    .sponsors .btn {
-        width: 30%;
     }
 
     .collab img {
@@ -399,6 +478,22 @@ h1 {
     .plan-pricing .btn:not(.btn-link) {
         width: 100%;
     }
+
+    .subscribe .input-group .form-control,
+    .subscribe .input-group .btn {
+        width: 100%;
+        border-radius: 0.5rem !important;
+        margin: 0.3rem 0;
+    }
+
+    .subscribe .input-group .form-control {
+        padding: 0.7rem;
+    }
+
+    .footer p {
+        margin: auto;
+        margin-bottom: 1rem;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -406,8 +501,7 @@ h1 {
         width: 100%;
     }
 
-    .sponsors .btn {
-        width: 40%;
-        margin: 0 10px;
+    .download-card {
+        margin: auto 1rem;
     }
 }
