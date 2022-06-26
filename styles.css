@@ -71,6 +71,8 @@ body {
 }
 
 p,
+p *,
+p *:hover,
 label {
     color: #9CAAB6;
     font-size: .95em;
@@ -94,8 +96,6 @@ h1 {
 .process {
     flex-wrap: nowrap;
     overflow: hidden;
-    /* -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar; */
 }
 
 .process .card {
@@ -111,6 +111,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.platforms img {
+    width: 100%;
 }
 
 .testimonials {
