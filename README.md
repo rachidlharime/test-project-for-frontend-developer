@@ -2,11 +2,9 @@
 
 A responsive landing page using HTML, CSS, JavaScript and Bootstrap with package manager Gulp.
 
-After cloning the repo , Run the following commands :
+After cloning the repo , Run the following command :
 
 npm install
-
-gulp
 
 gulp watch
 

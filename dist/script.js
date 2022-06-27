@@ -1,0 +1,1 @@
+let cards=document.getElementsByClassName("download-card");const class_init="card pt-3 pb-3 download-card";selectPlan=s=>{resetClass(),s.setAttribute("class",`${class_init} active`)},resetClass=()=>{for(let s=0;s<cards.length;s++)cards[s].setAttribute("class",class_init)};
