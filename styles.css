@@ -137,6 +137,8 @@ label {
     background-color: #183B56;
     min-height: 350px;
     border-radius: 1rem;
+    width: 90%;
+    margin: auto;
 }
 
 .testimonials .card .row div:not(.carousel-indicators) {
