@@ -34,6 +34,8 @@ gulp.task('copy-assets', function () {
 
 gulp.task('default', series('minify-html', 'minify-css', 'minify-js', 'copy-assets'))
 
+gulp.task('build', series('minify-html', 'minify-css', 'minify-js', 'copy-assets'))
+
 gulp.task('watch', () => {
     require('./server.js')
     livereload.listen()
