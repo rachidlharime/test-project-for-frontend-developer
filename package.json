@@ -1,0 +1,30 @@
+{
+  "name": "test-project-for-frontend-developer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachidlharime/test-project-for-frontend-developer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachidlharime/test-project-for-frontend-developer/issues"
+  },
+  "homepage": "https://github.com/rachidlharime/test-project-for-frontend-developer#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-uglify-es": "^3.0.0"
+  },
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
+}
