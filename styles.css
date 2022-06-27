@@ -97,17 +97,17 @@ label {
     width: 100%;
 }
 
-.process {
+.services {
     flex-wrap: nowrap;
     overflow: hidden;
 }
 
-.process .card {
+.services .card {
     width: 100%;
     min-height: 300px;
 }
 
-.process .card-icon {
+.services .card-icon {
     width: 46px;
     height: 46px;
     border: 1px solid #F6F7F8;
